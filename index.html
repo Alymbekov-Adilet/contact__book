@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <button class="btn__add">+</button>
+                    <button class="btn__search">
+                        <i class="search"></i>
+                    </button>
+                </th>
+                <span class="th__header">Добавить</span>
+                <span class="th__header">Поиск</span>
+            </tr>
+        </thead>
+        <tbody class="contact__list">
+
+        </tbody>
+    </table>
+
+    <!-- Пагинация -->
+    <div class="pagination">
+        <!-- <button class="search__prev">prev</button> -->
+        <!-- <button class="search__next">next</button> -->
+    </div>
+
+    <!-- Поиск -->
+    <div class="modal-back modal__window-search">
+        <div class="myForm myForm-search">
+            <input type="text">
+            <div class="search__btns">
+                <button class="search__btn-cancel">cancel</button>
+                <button class="search__btn-go">search</button>
+            </div>
+        </div>
+        <div class="myForm myForm-search__result">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="recently__added-title">
+                            <!-- <span class="thead__title">Найдено:</span> -->
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="recently__added">
+                    
+                </tbody>
+                </tbody>
+            </table>
+            <div class="search__pagination">
+                <!-- <button class="search__prev">prev</button>
+                <button class="search__next">next</button> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Создать контакт -->
+    <div class="modal-back modal__window">
+        <div class="myForm myForm-add">
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Фамилия">
+            <input class="phone__number" type="number" placeholder="Телефон">
+            <div class="btns">
+                <button class="btn__cancel">cancel</button>
+                <button class="btn__save">save</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Изменить контакт -->
+    <div class="modal-back modal__window-edit">
+        <div class="contact"></div>
+        <div class="myForm myForm-edit">
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Фамилия">
+            <input class="phone__number" type="tel" placeholder="Телефон">
+            <div class="btns-edit">
+                <!-- <button class="btn__cancel-edit">cancel</button>
+                <button class="btn__save-edit">save</button> -->
+            </div>
+        </div>
+        <div class="myForm myForm-msg">
+            <textarea name="" id="" cols="28" rows="5" placeholder="Введите сообщение"></textarea>
+            <div class="msg__send-go">
+                <!-- <button class="msg__send-cancel">cancel</button> -->
+                <!-- <button class="msg__send-go">send</button> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Удалить контакт -->
+    <div class="modal-back modal__window-question">
+        <div class="myForm myForm-question">
+            <span>Удалить контакт?</span>
+            <div class="question__answer">
+                <!-- <button class="answer__cancel">cancel</button>
+                <button class="answer__delete">delete</button> -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>

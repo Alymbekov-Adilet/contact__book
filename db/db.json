@@ -1,0 +1,130 @@
+{
+  "contacts": [
+    {
+      "name": "roza",
+      "surName": "otumbaeva",
+      "phone": "+996700123456",
+      "id": 2
+    },
+    {
+      "name": "omurbek",
+      "surName": "babanov",
+      "phone": "+99670123456",
+      "id": 3
+    },
+    {
+      "name": "cristiano",
+      "surName": "ronaldo",
+      "phone": "+996700123456",
+      "id": 4
+    },
+    {
+      "name": "max",
+      "surName": "florida",
+      "phone": "+996700123456",
+      "id": 5
+    },
+    {
+      "name": "ayana",
+      "surName": "kasymova",
+      "phone": "+99670123456",
+      "id": 6
+    },
+    {
+      "name": "mirbek",
+      "surName": "atabekov",
+      "phone": "+996705669544",
+      "id": 7
+    },
+    {
+      "name": "guljikit",
+      "surName": "satybekov",
+      "phone": "+996700123456",
+      "id": 8
+    },
+    {
+      "name": "guljigit",
+      "surName": "kalykov",
+      "phone": "+99670123456",
+      "id": 9
+    },
+    {
+      "name": "almazbek",
+      "surName": "atambaev",
+      "phone": "+996700123456",
+      "id": 10
+    },
+    {
+      "name": "vladimir",
+      "surName": "putin",
+      "phone": "+996700123456",
+      "id": 11
+    },
+    {
+      "name": "nursultan",
+      "surName": "nazarbaev",
+      "phone": "+996700123456",
+      "id": 12
+    },
+    {
+      "name": "habib",
+      "surName": "nurmagomedov",
+      "phone": "+996700123456",
+      "id": 13
+    },
+    {
+      "name": "konor",
+      "surName": "makregor",
+      "phone": "+996700123456",
+      "id": 14
+    },
+    {
+      "name": "bred",
+      "surName": "pit",
+      "phone": "+996700123456",
+      "id": 15
+    },
+    {
+      "name": "andjelina",
+      "surName": "djoli",
+      "phone": "+996700123456",
+      "id": 16
+    },
+    {
+      "name": "sherlock",
+      "surName": "holmes",
+      "phone": "+996700123456",
+      "id": 17
+    },
+    {
+      "name": "tolgonai",
+      "surName": "arzykeeva",
+      "phone": "+996700123456",
+      "id": 18
+    },
+    {
+      "name": "sooronbai",
+      "surName": "jeenbekov",
+      "phone": "+996700123456",
+      "id": 19
+    },
+    {
+      "name": "maksim",
+      "surName": "bakiev",
+      "phone": "+996700123456",
+      "id": 20
+    },
+    {
+      "name": "rodjer",
+      "surName": "federrer",
+      "phone": "+996700123456",
+      "id": 21
+    },
+    {
+      "name": "aibek",
+      "surName": "zhyrgalbekov",
+      "phone": "996700123456",
+      "id": 22
+    }
+  ]
+}
